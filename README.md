@@ -10,8 +10,8 @@ This is a simple and user-friendly weather forecast application built with Vite,
 - Graceful error handling for invalid city names and network issues
 
 ## Demo
+![image](https://github.com/ManishjangirIITG/reactp_swc_vite/assets/121192543/72ee1bd5-dc68-44ca-9c4e-04e64a37f9fc)
 
-![Weather Forecast App](./demo.gif)
 
 ## Technologies Used
 
