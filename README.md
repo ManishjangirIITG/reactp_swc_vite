@@ -79,7 +79,7 @@ This will create a dist directory with the production build of the app.
 ### API Proxy Configuration
   The Vite development server is configured to proxy API requests to the AccuWeather API. This configuration is set up in vite.config.js:
   
-      ```js
+   ```js
         import { defineConfig } from 'vite';
         import react from '@vitejs/plugin-react';
         // https://vitejs.dev/config/
