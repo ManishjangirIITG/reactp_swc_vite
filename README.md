@@ -80,22 +80,22 @@ This will create a dist directory with the production build of the app.
   The Vite development server is configured to proxy API requests to the AccuWeather API. This configuration is set up in vite.config.js:
   
    ```js
-        import { defineConfig } from 'vite';
-        import react from '@vitejs/plugin-react';
-        // https://vitejs.dev/config/
-        export default defineConfig({
-          plugins: [react()],
-        server: {
-          proxy: {
-            '/api': {
+         import { defineConfig } from 'vite';
+         import react from '@vitejs/plugin-react';
+         // https://vitejs.dev/config/
+         export default defineConfig({
+         plugins: [react()],
+          server: {
+           proxy: {
+           '/api': {
               target: 'http://dataservice.accuweather.com',
-              changeOrigin: true,
-              rewrite: (path) => path.replace(/^\/api/, ''),
-            },
+               changeOrigin: true,
+               rewrite: (path) => path.replace(/^\/api/, ''),
+              },
+            },   
           },
-        },
-  });
-
+      });
+   ```
 ### Usage
 1. Enter the name of the city you want to search for in the input field.
 2. Click the "Fetch Forecast" button to retrieve and display the current weather forecast.
