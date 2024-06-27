@@ -6,10 +6,11 @@ const Weather = () => {
     const [weather, setWeather] = useState(null);
     const [error, setError] = useState('');
 
+
     const fetchWeather = async () => {
         try {
             // Get location key from city name
-            const locationResponse = await axios.get(`/api/locations/v1/cities/search`, {
+            const locationResponse = await axios.get(`https://dataservice.accuweather.com/locations/v1/cities/search`, {
                 params: {
                     apikey: import.meta.env.VITE_ACCUWEATHER_API_KEY,
                     q: city,
@@ -26,7 +27,7 @@ const Weather = () => {
             const cityName = locationResponse.data[0].LocalizedName;
 
             // Get weather data using location key
-            const weatherResponse = await axios.get(`/api/currentconditions/v1/${locationKey}`, {
+            const weatherResponse = await axios.get(`https://dataservice.accuweather.com/currentconditions/v1/${locationKey}`, {
                 params: {
                     apikey: import.meta.env.VITE_ACCUWEATHER_API_KEY,
                     details: true,
