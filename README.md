@@ -1,5 +1,9 @@
 # Vite React Weather Forecast App
 
+
+https://github.com/ManishjangirIITG/reactp_swc_vite/assets/121192543/3b9f1b51-4d0a-417c-9e51-4270f45fbe76
+
+
 This is a simple and user-friendly weather forecast application built with Vite, React, and Tailwind CSS. The app fetches and displays a 5-day weather forecast for any city using the AccuWeather API.
 
 ## Features
@@ -52,14 +56,15 @@ This is a simple and user-friendly weather forecast application built with Vite,
 
 ### Build for Production
   To build the application for production, run:
-
-    ```bash
+   ```bash
     npm run build
+   ```
 
 This will create a dist directory with the production build of the app.
 
 ### Project Structure
-    ```plaintext
+
+   ```plaintext
     my-weather-app/
     ├── node_modules/
     ├── public/
@@ -75,6 +80,7 @@ This will create a dist directory with the production build of the app.
     ├── postcss.config.js
     ├── tailwind.config.js
     └── vite.config.js
+   ```
 
 ### API Proxy Configuration
   The Vite development server is configured to proxy API requests to the AccuWeather API. This configuration is set up in vite.config.js:
