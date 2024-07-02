@@ -4,7 +4,7 @@
 https://github.com/ManishjangirIITG/reactp_swc_vite/assets/121192543/3b9f1b51-4d0a-417c-9e51-4270f45fbe76
 
 
-This is a simple and user-friendly weather forecast application built with Vite, React, and Tailwind CSS. The app fetches and displays a 5-day weather forecast for any city using the AccuWeather API. Hosted on `https://manishjangiriitg.github.io/reactp_swc_vite/`
+This is a simple and user-friendly weather forecast application built with Vite, React, and Tailwind CSS. The app fetches and displays a 5-day weather forecast for any city using the AccuWeather API. Hosted on Github pages [Here](https://manishjangiriitg.github.io/reactp_swc_vite/)
 
 ## Features
 
